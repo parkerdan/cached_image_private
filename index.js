@@ -1,4 +1,7 @@
 'use strict';
 
-module.exports = require('./CachedImage');
-module.exports.ImageCacheProvider = require('./ImageCacheProvider');
+import Image from './CachedImage'
+import ImageCacheProvider from './ImageCacheProvider'
+
+export { ImageCacheProvider }
+export default Image
